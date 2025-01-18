@@ -1,5 +1,22 @@
+# Dependências
+node_modules/
+
+# Arquivos de ambiente
 .env
+.env.local
+.env.*.local
 
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
 
-frontend
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
