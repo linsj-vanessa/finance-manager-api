@@ -43,7 +43,7 @@ Esta é a API RESTful para um aplicativo de gestão financeira, onde você pode 
 *  Implementação de middlewares para validação e tratamento de erros.
  * Criação de rotas com Express
 *   Proteção de APIs com headers de segurança
-*   Testes de API com Postman (ou similar)
+*   Testes de API com Postman 
 *   Versionamento de código com Git.
 
 
