@@ -1,6 +1,52 @@
-# Finance Manager API
+# Finance Manager API (Backend)
 
-API para o aplicativo de gestão financeira.
+API para um aplicativo de gestão financeira.
+
+## 📝 Descrição
+
+Esta é a API RESTful para um aplicativo de gestão financeira, onde você pode controlar suas receitas, despesas, categorias, criar metas, orçamentos e gerar relatórios.
+ A API foi construída para facilitar o desenvolvimento do fronted para mobile e web da aplicação.
+
+## ✨ Funcionalidades
+
+*   Autenticação de usuários (cadastro, login, logout).
+*   Gerenciamento de transações (criar, listar, obter, atualizar, deletar).
+*   Gerenciamento de categorias financeiras (criar, listar, obter, atualizar, deletar).
+*  Geração de relatórios de saldo, receitas e despesas por período.
+*   Gerenciamento de orçamentos (criar, listar, obter, atualizar, deletar).
+*   Gerenciamento de metas (criar, listar, obter, atualizar, deletar, marcar como concluída).
+* Validação de dados de entrada.
+ * Tratamento de erros.
+ * Proteção da API com headers de segurança.
+
+## 🚀 Tecnologias Utilizadas
+
+*   **JavaScript:** Linguagem de programação principal.
+*   **Node.js:** Ambiente de execução JavaScript para o backend.
+*   **Express.js:** Framework web para o backend.
+*   **MongoDB Atlas:** Banco de dados NoSQL.
+*   **Mongoose:** Biblioteca para modelagem de dados com o MongoDB.
+ * **dotenv:** Biblioteca para variaveis de ambiente.
+ * **bcrypt:** Biblioteca para criptografia de senhas.
+ * **jsonwebtoken:** Biblioteca para geração de tokens JWT.
+*   **express-validator:** Biblioteca para validação de dados de requisição.
+*   **helmet:** Middleware de segurança para HTTP headers.
+*   **Git:** Para versionamento do código.
+*  **npm:** Gerenciador de pacotes do Node.js.
+
+## 🎯 Aprendizados
+
+*   Criação de APIs RESTful com Node.js e Express.
+*   Conexão com o MongoDB Atlas.
+*   Criação de modelos de dados com Mongoose.
+*   Autenticação de usuários com tokens JWT.
+*  Implementação de middlewares para validação e tratamento de erros.
+ * Criação de rotas com Express
+*   Proteção de APIs com headers de segurança
+*   Testes de API com Postman (ou similar)
+*   Versionamento de código com Git.
+
+
 
 ## Endpoints:
 
